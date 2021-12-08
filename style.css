@@ -1,0 +1,171 @@
+html{
+    display: normal;
+}
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 18px;
+}
+
+.header {
+    display:flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    justify-content: space-between;
+    padding: 8px 80px;
+}
+
+.headerlogo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.headerlinks {
+    display:flex;
+    justify-content: flex-end;
+    gap: 18px;
+    font-size: 12px;
+}
+
+.Title {
+    display:flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 100px 80px 100px 80px;
+    gap: 20px;
+}
+
+.titleleft{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.maintitle {
+    font-size: 48px;
+    font-weight: 900;
+    color:#f9faf8;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.titleimage {
+    width:800px;
+    height: auto;
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 80px 40px 80px;
+    text-align: center;
+    font-size: 30px;
+    gap: 24px;
+}
+
+.infobox {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    gap: 18px;
+    width: 140px;
+}
+
+.imgbox {
+    width: 125px;
+    height: 125px;
+    border: #3882f6 2px solid;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-style: italic;
+    align-items: flex-end;
+    text-align: left;
+    padding: 40px 180px;
+}
+
+.quoteauthor{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    font-style: normal;
+}
+
+.Call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+.subcall {
+    width: 600px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 12px;
+    gap: 20px;
+}
+
+.calltitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.calltext {
+    font-size: 14px;
+}
+
+.callbutton {
+    border: white solid 1px;
+    border-radius: 6px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 80px;
+}
